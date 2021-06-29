@@ -1,3 +1,8 @@
+--[[
+DESAFIO NOVO: Dada    a    string    abaixo,    você    conseguiria    dizer    o    que    esta    escrito em    português?    Dica:    use    as    funções    string.byte(),    string.char(), string.sub()    e    string.len().
+"gw gurgtq swg xqeg pcq vgpjc fguetkrvqitchcfq vqfc guvc uvtkpi ocpwcnogpvg rqtswg cngo fg owkvq fgoqtcfq ugtkc vqvcnogpvg gpvgfkcpvg"
+]]
+
 str = "gw gurgtq swg xqeg pcq vgpjc fguetkrvqitchcfq vqfc guvc uvtkpi ocpwcnogpvg rqtswg cngo fg owkvq fgoqtcfq ugtkc vqvcnogpvg gpvgfkcpvg"
 
 a = {}
