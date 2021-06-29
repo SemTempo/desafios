@@ -1,4 +1,11 @@
+--[[
+Números Romanos
+Escreva um programa que converta números romanos, lidos através de uma string, em um inteiro em base decimal. Vale qualquer linguagem.
 
+Ex:
+$ convert_roman mmxxi
+2021
+]]
 NUM_ROMANOS =
 {
   ['I'] = 1,
