@@ -48,10 +48,10 @@ function correrExemplo(pilha)
     for i = 1, empilhar do
         pilha:push()
     end
-
     for i = 1, desempilhar do
         pilha:pop()
     end
+    
     print(string.format("-Apresentar Topo: %s -Apresentar Valor: %s", pilha.topo, pilha.energia[pilha.topo]))
 end
 
