@@ -37,7 +37,7 @@ end
 --[[ EXEMPLIFICAR()
 é uma funcao que vai mostrar o funcionamento da pilha, 
 vai carregar bateria, e decarregar a bateria. imprimindo a energia positiva
-e energia negativa, no inicio, depois de a bateria estar totalmente caregada
+e energia negativa. Vai imprimir no inicio, depois de a bateria estar totalmente caregada
 e no final depois de a bateria estar totalmente descarregada. 
 ]]
 function exemplificar(duracell_AAA)
