@@ -1,4 +1,4 @@
-TAM_PILHA = 5
+TAM_PILHA = 100
 
 --pop ou desempilhar a pilha
 function pop(pilha)
@@ -43,8 +43,7 @@ end
 quantas vezes se quer desempelhar. e no final, imprime na tela o topo e o valor]]
 function correrExemplo(pilha)
     os.execute("cls")
-    local empilhar = 6
-    local desempilhar = 2
+    local empilhar, desempilhar = 50, 10
 
     for i = 1, empilhar do
         pilha:push()
