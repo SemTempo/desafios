@@ -76,3 +76,22 @@ function Complex.arg(p1)
     return math.deg(math.atan(p1[1], p1[2])) 
 end
 return Complex
+
+--[[ --exemplo de uso, em um outro ficheiro
+local Complex = require "desafio_lib_numComplexos"
+
+function main()
+    local z1 = Complex(1, 0)
+    local z2 = Complex(1, 1)
+    
+    print(z1+z2)
+    print(z1-z2)
+    print(z1 * z2)
+    print(z1 / z2)
+    print(Complex.conj(z2))
+    print(z1:abs())
+    print(z1:arg())
+    print(1 + z1 + 2)
+end
+main()
+]]
